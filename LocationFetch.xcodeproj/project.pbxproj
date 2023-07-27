@@ -13,6 +13,7 @@
 		4A6CAD622A7261B000E689F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6CAD602A7261B000E689F2 /* Main.storyboard */; };
 		4A6CAD642A7261B200E689F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6CAD632A7261B200E689F2 /* Assets.xcassets */; };
 		4A6CAD672A7261B200E689F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6CAD652A7261B200E689F2 /* LaunchScreen.storyboard */; };
+		4A6CAD6F2A7261CE00E689F2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CAD6E2A7261CE00E689F2 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A6CAD632A7261B200E689F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6CAD662A7261B200E689F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A6CAD682A7261B200E689F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6CAD6E2A7261CE00E689F2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				4A6CAD5A2A7261B000E689F2 /* AppDelegate.swift */,
+				4A6CAD6E2A7261CE00E689F2 /* LocationManager.swift */,
 				4A6CAD5C2A7261B000E689F2 /* SceneDelegate.swift */,
 				4A6CAD5E2A7261B000E689F2 /* ViewController.swift */,
 				4A6CAD602A7261B000E689F2 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6CAD6F2A7261CE00E689F2 /* LocationManager.swift in Sources */,
 				4A6CAD5F2A7261B000E689F2 /* ViewController.swift in Sources */,
 				4A6CAD5B2A7261B000E689F2 /* AppDelegate.swift in Sources */,
 				4A6CAD5D2A7261B000E689F2 /* SceneDelegate.swift in Sources */,
